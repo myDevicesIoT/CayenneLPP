@@ -40,5 +40,3 @@ Payload.addGPS(5, latitude, longitude, altitude);
 // Call LoRaWAN library to send the frame
 LORA_SEND(Payload.getBuffer(), Payload.getSize());
 ```
-
-LICENSE
