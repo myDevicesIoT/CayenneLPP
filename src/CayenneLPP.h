@@ -1,11 +1,6 @@
 #ifndef _CAYENNE_LPP_H_
 #define _CAYENNE_LPP_H_
 
-#include "mbed.h"
-
-//LPP_BATTERY = // TODO Unsupported in IPSO Smart Object
-//LPP_PROXIMITY = // TODO Unsupported in IPSO Smart Object
-
 #define LPP_DIGITAL_INPUT       0       // 1 byte
 #define LPP_DIGITAL_OUTPUT      1       // 1 byte
 #define LPP_ANALOG_INPUT        2       // 2 bytes, 0.01 signed
